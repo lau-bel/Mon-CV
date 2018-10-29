@@ -1,0 +1,71 @@
+html, body {
+  margin : 0;
+  padding: 0;
+}
+
+
+.container {
+width: 1000px;
+margin : -80px auto auto auto;
+}
+
+header img {
+width : 1000px;
+clip-path: polygon(50% 0%, 100% 0, 100% 32%, 31% 33%, 0 72%, 0 0);
+}
+
+.imgcv img{
+  position : absolute;
+  width: 200px;
+  margin-left : 400px;
+  margin-top : -430px;
+  clip-path: circle(50%);
+
+}
+
+/*compétences*/
+
+.skills {
+  display : inline-block;
+  position : absolute;
+  margin : -200px 0 0 100px;
+  border-right : 3px solid #62975d;
+  padding-right : 50px;
+}
+.skills h2 {
+  font-family : "Gravitas One";
+}
+
+.skills ul {
+  font-family : "KoHo";
+  line-height: 20px;
+}
+
+.language {
+ font-family : "KoHo";
+}
+.jauge {
+  width: 300px;
+  background-color: #b6bfae;
+  height: 20px;
+}
+.anglais {
+  width:75%;
+  background-color: #62975d;
+  line-height: 20px;
+  margin : 5px 5px 5px 0;
+}
+.néerlandais {
+  width:30%;
+  background-color: #62975d;
+  line-height: 20px;
+  margin : 5px 5px 5px 0;
+
+}
+.français {
+  width:300px;
+  background-color: #62975d;
+  line-height: 20px;
+  margin : 5px 5px 5px 0;
+
+}
