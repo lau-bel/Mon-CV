@@ -20,10 +20,19 @@ margin-left : 135px;
 
 }
 
+.iam {
+  position : absolute;
+  font-family : "KoHo";
+  font-size : 20px;
+  line-height: 20px;
+  margin-top : -400px;
+  margin-left : 835px;
+}
+
 .container {
 
 width: 1000px;
-margin : -80px auto auto 215px;
+margin : -200px auto auto 180px;
 display : flex;
 flex-direction: row;
 justify-content: space-around;
@@ -33,7 +42,7 @@ justify-content: space-around;
 /*compétences*/
 
 .skills {
-  margin : -100px 0 0 -100px;
+  margin : 0 0 0 0;
   border-right : 3px solid #62975d;
   padding-right : 50px;
 }
@@ -75,10 +84,32 @@ justify-content: space-around;
 
 }
 
+/* réseaux sociaux*/
+.rs {
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.rs i {
+  font-size : 30px;
+  margin : 0 20px 0 30px;
+}
+.rs a{
+  text-decoration : none;
+  color : #62975d;
+}
+
 /*col 2 : expériences*/
 .XP {
-
+font-family : "KoHo";
+line-height: 20px;
+margin : 0 0 0 -50px;
+padding: 0;
 }
-.XP h2 {
+.expériences {
   font-family : "Gravitas One";
+}
+
+.pro h3 {
+  font-family : "Gravitas One";
+  font-size : 15px;
 }
