@@ -1,2 +1,2 @@
 # lau-bel.github.io
-Curriculum Vitae
+Curriculum Vitae : https://lau-bel.github.io/
